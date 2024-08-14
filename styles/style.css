@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    margin: 0  auto;}
+
+    /* shared style */
+    .primary-head{
+        font-size:2rem;
+        text-align: center;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+    .description{
+        font-weight: 400;
+      font-size: 1rem;
+     color: #FFFFFF80;
+    }
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-items: center;
+        background: #111111;
+      
+        
+       
+    }
+    .logo{   
+        display: flex;
+        align-items: center;
+        color: rgb(230, 83, 60);
+        font-weight: 800;
+        font-size: 2.25rem;
+        margin-left: 100px;
+    
+    }
+    
+#home{
+    border-radius: 46px;
+    padding: 6px 20px 6px 20px;
+background: rgb(230, 83, 60);
+}
+.nav-option ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    color: white;
+    gap:4rem ;
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
+padding: 6px 20px 6px 20px;
+margin-right: 80px;
+
+}
+.nav-hamburger{
+    display: none;
+    color: white;
+   
+}
+
+.banner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #111111;
+  
+
+}
+.banner-content{
+    margin-left: 100px;
+
+}
+ 
+.banner-title{
+    font-weight: 700;
+    font-size: 5rem;
+    color: #FFFFFF;
+   
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF80;
+    padding-right: 200px;
+}
+.banner-image{
+    position: relative;
+    margin-right: 60px;
+}
+.banner-card-1{
+    height: 60px;
+    width: 150px;
+    border: 1px solid red;
+    position: absolute;
+    margin-top: -500px;
+    margin-right: 50px;
+  
+}
+.banner-card-2{
+
+height: 50px;
+    width: 200px;
+    border: 5px solid red;
+    margin-bottom: -200px;
+    margin-left: 50px;
+}
+.btn-primary{
+Width: 200px;
+Height: 50px;
+background-color: rgb(230, 83, 60);
+border-radius: 42px;
+border: none;
+font-weight: 600;
+font-size: 1rem;
+padding: 16px, 40px, 16px, 40px;
+color:rgb(255, 255, 255);
+
+}
+/* change section style */
+ 
+ .change-container{
+    background-color: #111111;
+}
+
+.change-section{
+    background-color: #111111;
+}
+.change-section p{
+    font-weight: 200;
+    font-size: .6rem;
+    text-align: center;
+ color: #FFFFFF80;
+
+}
+.card-container{
+    display: flex;
+    justify-content:space-around;
+    margin: 40px 80px;
+ 
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+    
+}
+.card-1 img{
+    border-radius: 50%;
+}
+.card-1 h6{
+   color: #FFFFFF;
+
+    
+}
+
+/* run style */
+.run-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    margin: 80px;
+    border-radius: 18px;
+    background: #222222;
+    
+    
+      
+    }
+    .text-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+     align-items: flex-start;
+     
+      
+    }
+ 
+    .run-image{
+      
+    width: 366px;
+    height: 312px;
+    padding: 1rem;
+    border-radius: 18px ;
+    
+    
+    }
+    /* bmi section */
+.bmi-content{
+    text-align: center;
+}
+.bmi-chat{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #222222;
+   
+}
+.bmi-table{
+  margin-left: 100px;
+}
+.bmi-form{
+display: grid;
+ margin-right: 30px;
+  
+}
+.bmi-form p{
+
+}
+.bmi-description{
+   
+Font-weight: 900;
+Font-size: 1.8rem;
+color: #FFFFFF;
+}
+.form-type{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+}
+table ,th,td{
+    border: 1px solid
+    #FFFFFF1A;
+    border-collapse: collapse;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .75rem;
+    padding: 10px;
+    text-align: start;
+    margin-bottom: 130px;
+}
+input{
+    padding: 12px, 40px, 12px, 20px;
+    width: 282px;
+    height: 38px;
+    border-radius: 8px ;
+    border: none;
+   
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
