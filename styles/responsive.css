@@ -17,4 +17,15 @@ flex-direction: column;
     .run-container{
         flex-direction: column;
     }
+    .meet-image-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bmi-chat{
+        display: flex;
+        flex-direction: column;
+    }
+    .bmi-form{
+display: block;
+    }
 }
