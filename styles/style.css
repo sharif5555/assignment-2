@@ -171,13 +171,13 @@ body {
     background-color: #111111;
 }
 
+
+
+
 .change-section p {
-    font-weight: 200;
-    font-size: .6rem;
+  
     text-align: center;
-    color: #FFFFFF80;
-
-
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .card-container {
@@ -297,7 +297,7 @@ td {
     margin-bottom: 130px;
 }
 
-input {
+input{
 
     padding: 12px, 40px, 12px, 20px;
     width: 282px;
@@ -318,6 +318,8 @@ input {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    
+    
   
    
 }
@@ -328,6 +330,7 @@ input {
 
 .meet-image {
     position:relative;
+    
 }
 
 .meet-title {
@@ -350,9 +353,7 @@ footer {
 
 }
 
-.footer-container {
 
-}
 
 .footer {
    
@@ -364,10 +365,9 @@ footer {
 
 #fitness {
     font-family: Inter;
-    font-size: 70px;
+    font-size: 4.5rem;
     font-style: italic;
     font-weight: 800;
-
     text-align: left;
     color: rgba(230, 83, 60, 1);
 
@@ -376,9 +376,8 @@ footer {
 .footer-description {
     width: 443px;
     height: 72px;
-
-
-
+   
+   
 }
 
 .footer-content {
@@ -388,8 +387,12 @@ footer {
 .footer-first {
     margin-left: 50px;
 }
+
+
 .hr{
-    background-color:rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.1);
+    width: 100%;
+    
 }
 .footer-text{
     text-align: center;

@@ -2,6 +2,7 @@
    
     .nav-hamburger{
         display: block;
+        margin-right: 20px;
         
     }
     .nav-option{
@@ -17,6 +18,9 @@
     .run-container{
         flex-direction: column;
     }
+    .run-image{
+        margin-right: 80px;
+    }
     .image-content{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -24,11 +28,17 @@
     .bmi-chat{
         display: flex;
         flex-direction: column;
+       
     }
+    
     .bmi-form{
        display: block;
     }
     .footer{
         flex-direction: column;
+        
+       
     }
+    
 }
+
